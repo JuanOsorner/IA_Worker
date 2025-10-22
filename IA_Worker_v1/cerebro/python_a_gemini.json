@@ -1,0 +1,10 @@
+{
+  "timestamp": "2025-10-21T14:24:01.751297",
+  "proporcion_ambiguedad_actual": 0.33,
+  "tendencia_ambiguedad": {
+    "pendiente": -0.0,
+    "proyeccion_proxima_iteracion": 0.54
+  },
+  "carga_trabajo_total": 27,
+  "sugerencia_carga_trabajo": "ADVERTENCIA: La carga de trabajo es alta. Sugiero dividir este m\u00f3dulo en dos m\u00e1s peque\u00f1os."
+}

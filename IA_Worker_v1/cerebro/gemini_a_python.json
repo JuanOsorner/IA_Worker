@@ -1,0 +1,35 @@
+
+{
+  "tareas": [
+    {
+      "descripcion": "Analizar la estructura del proyecto para entender el código base.",
+      "clasificacion": "clara",
+      "complejidad": 2
+    },
+    {
+      "descripcion": "Analizar `controller/js/registroActividades/registroActividadesController.js` para entender cómo se muestran las imágenes y dónde se origina la alerta 'error al procesar'.",
+      "clasificacion": "clara",
+      "complejidad": 3
+    },
+    {
+      "descripcion": "Analizar `controller/php/registroActividades/registroActividad.php` y `controller/php/procesador_imagenes.php` para entender la lógica de subida y procesamiento de imágenes.",
+      "clasificacion": "clara",
+      "complejidad": 4
+    },
+    {
+      "descripcion": "Investigar posibles problemas de compatibilidad con fotos de dispositivos Samsung (Android 14), como el formato HEIC o tamaños de archivo grandes, y cómo los maneja el backend de PHP.",
+      "clasificacion": "ambigua",
+      "complejidad": 6
+    },
+    {
+      "descripcion": "Localizar el código específico del backend que genera el mensaje 'error al procesar'.",
+      "clasificacion": "clara",
+      "complejidad": 3
+    },
+    {
+      "descripcion": "Proponer una solución para los problemas de renderizado y subida de imágenes.",
+      "clasificacion": "ambigua",
+      "complejidad": 9
+    }
+  ]
+}
